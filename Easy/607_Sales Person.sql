@@ -2,6 +2,7 @@
 
 -- Return the result table in any order.
 
+
 select s.name from SalesPerson s JOIN Orders o ON s.sales_id = o.sales_id JOIN Company c on (o.com_id = c.com_id and c.name = 'RED') 
 where o.sales_id is null
 

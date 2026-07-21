@@ -5,6 +5,7 @@
 -- The result format is in the following example.
 
  
+ 
 
 SELECT IFNULL(max(num), null) as num 
 FROM (Select num from MyNumbers 
