@@ -1,3 +1,13 @@
+-- Initially, all products have price 10.
+
+-- Write a solution to find the prices of all products on the date 2019-08-16.
+
+-- Return the result table in any order.
+
+-- The result format is in the following example.
+
+ 
+
 SELECT
     DISTINCT product_id,
     IFNULL(
